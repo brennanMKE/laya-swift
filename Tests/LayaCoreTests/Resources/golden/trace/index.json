@@ -1,0 +1,722 @@
+[
+ {
+  "file": "tetris.safetensors",
+  "state": "The piece leaves no holes under it and makes a small bump on top. It fits snugly.",
+  "question": {
+   "criteria": {
+    "clean": "flat with no holes",
+    "messy": "holes or a tall tower"
+   },
+   "instructions": "How does the stack look after the piece lands?",
+   "type": "choice"
+  },
+  "qtype": 0,
+  "ids": [
+   50281,
+   22122,
+   1953,
+   27,
+   1359,
+   1057,
+   253,
+   8031,
+   1007,
+   846,
+   253,
+   5313,
+   13446,
+   32,
+   50282,
+   50284,
+   4076,
+   27,
+   6507,
+   342,
+   642,
+   11385,
+   50284,
+   36396,
+   27,
+   11385,
+   390,
+   247,
+   10086,
+   15469,
+   50282,
+   510,
+   5313,
+   6505,
+   642,
+   11385,
+   762,
+   352,
+   285,
+   2789,
+   247,
+   1355,
+   19496,
+   327,
+   1755,
+   15,
+   733,
+   13840,
+   3802,
+   814,
+   314,
+   15,
+   50282
+  ],
+  "markers": [
+   15,
+   22
+  ],
+  "tensors": {
+   "emb": [
+    53,
+    1024
+   ],
+   "layer.0": [
+    53,
+    1024
+   ],
+   "layer.1": [
+    53,
+    1024
+   ],
+   "layer.2": [
+    53,
+    1024
+   ],
+   "layer.3": [
+    53,
+    1024
+   ],
+   "layer.27": [
+    53,
+    1024
+   ],
+   "final_norm": [
+    53,
+    1024
+   ],
+   "head_in": [
+    53,
+    1024
+   ],
+   "head.0": [
+    53,
+    1024
+   ],
+   "head.1": [
+    53,
+    1024
+   ],
+   "logits": [
+    2
+   ],
+   "act_logits": [
+    2
+   ]
+  }
+ },
+ {
+  "file": "frogger.safetensors",
+  "state": "Hopping down lands in a deadly place: the bottom edge, where the frog cannot go.",
+  "question": {
+   "criteria": {
+    "deadly": "a deadly place",
+    "safe": "a safe place"
+   },
+   "instructions": "What kind of place is it?",
+   "type": "choice"
+  },
+  "qtype": 0,
+  "ids": [
+   50281,
+   22122,
+   1953,
+   27,
+   1737,
+   2238,
+   273,
+   1659,
+   310,
+   352,
+   32,
+   50282,
+   50284,
+   18649,
+   27,
+   247,
+   18649,
+   1659,
+   50284,
+   4999,
+   27,
+   247,
+   4999,
+   1659,
+   50282,
+   24721,
+   2784,
+   1066,
+   13446,
+   275,
+   247,
+   18649,
+   1659,
+   27,
+   253,
+   5004,
+   5024,
+   13,
+   835,
+   253,
+   40096,
+   2550,
+   564,
+   15,
+   50282
+  ],
+  "markers": [
+   12,
+   18
+  ],
+  "tensors": {
+   "emb": [
+    45,
+    1024
+   ],
+   "layer.0": [
+    45,
+    1024
+   ],
+   "layer.1": [
+    45,
+    1024
+   ],
+   "layer.2": [
+    45,
+    1024
+   ],
+   "layer.3": [
+    45,
+    1024
+   ],
+   "layer.27": [
+    45,
+    1024
+   ],
+   "final_norm": [
+    45,
+    1024
+   ],
+   "head_in": [
+    45,
+    1024
+   ],
+   "head.0": [
+    45,
+    1024
+   ],
+   "head.1": [
+    45,
+    1024
+   ],
+   "logits": [
+    2
+   ],
+   "act_logits": [
+    2
+   ]
+  }
+ },
+ {
+  "file": "invaders.safetensors",
+  "state": "An invader is directly above the cannon.",
+  "question": {
+   "criteria": {
+    "empty": "empty space",
+    "invader": "an invader",
+    "shield": "the cannon's own shield"
+   },
+   "instructions": "What is directly above the cannon?",
+   "type": "choice"
+  },
+  "qtype": 0,
+  "ids": [
+   50281,
+   22122,
+   1953,
+   27,
+   1737,
+   310,
+   3587,
+   1840,
+   253,
+   35996,
+   32,
+   50282,
+   50284,
+   6325,
+   27,
+   6325,
+   2317,
+   50284,
+   828,
+   6475,
+   27,
+   271,
+   828,
+   6475,
+   50284,
+   12831,
+   27,
+   253,
+   35996,
+   434,
+   1211,
+   12831,
+   50282,
+   1145,
+   828,
+   6475,
+   310,
+   3587,
+   1840,
+   253,
+   35996,
+   15,
+   50282
+  ],
+  "markers": [
+   12,
+   17,
+   24
+  ],
+  "tensors": {
+   "emb": [
+    43,
+    1024
+   ],
+   "layer.0": [
+    43,
+    1024
+   ],
+   "layer.1": [
+    43,
+    1024
+   ],
+   "layer.2": [
+    43,
+    1024
+   ],
+   "layer.3": [
+    43,
+    1024
+   ],
+   "layer.27": [
+    43,
+    1024
+   ],
+   "final_norm": [
+    43,
+    1024
+   ],
+   "head_in": [
+    43,
+    1024
+   ],
+   "head.0": [
+    43,
+    1024
+   ],
+   "head.1": [
+    43,
+    1024
+   ],
+   "logits": [
+    3
+   ],
+   "act_logits": [
+    2
+   ]
+  }
+ },
+ {
+  "file": "score.safetensors",
+  "state": "The move clears two lines.",
+  "question": {
+   "type": "score",
+   "instructions": "How good is this move?",
+   "criteria": [
+    "terrible",
+    "poor",
+    "fair",
+    "good",
+    "excellent"
+   ]
+  },
+  "qtype": 1,
+  "ids": [
+   50281,
+   18891,
+   1953,
+   27,
+   1359,
+   1175,
+   310,
+   436,
+   2118,
+   32,
+   50282,
+   50284,
+   1268,
+   470,
+   27,
+   11527,
+   50284,
+   1268,
+   337,
+   27,
+   4105,
+   50284,
+   1268,
+   374,
+   27,
+   4344,
+   50284,
+   1268,
+   495,
+   27,
+   1175,
+   50284,
+   1268,
+   577,
+   27,
+   7126,
+   50282,
+   510,
+   2118,
+   1391,
+   1032,
+   767,
+   3104,
+   15,
+   50282
+  ],
+  "markers": [
+   11,
+   16,
+   21,
+   26,
+   31
+  ],
+  "tensors": {
+   "emb": [
+    45,
+    1024
+   ],
+   "layer.0": [
+    45,
+    1024
+   ],
+   "layer.1": [
+    45,
+    1024
+   ],
+   "layer.2": [
+    45,
+    1024
+   ],
+   "layer.3": [
+    45,
+    1024
+   ],
+   "layer.27": [
+    45,
+    1024
+   ],
+   "final_norm": [
+    45,
+    1024
+   ],
+   "head_in": [
+    45,
+    1024
+   ],
+   "head.0": [
+    45,
+    1024
+   ],
+   "head.1": [
+    45,
+    1024
+   ],
+   "logits": [
+    5
+   ],
+   "act_logits": [
+    2
+   ]
+  }
+ },
+ {
+  "file": "long.safetensors",
+  "state": "cannon. log, waits (slowly) over by on the counting by miles the the by pass dog that that that on waits cannon. cannon. lazy invaders on waits quick the The descend per hour; invaders per per over The quick hour; 42 that on dog per meanwhile, by toward counting 42 invaders cars cars per cars cannon. cannon. 42 fox by the log, at at that while over The at log, the log, dog meanwhile, fox while (slowly) over (slowly) quick the waits while miles at the toward on while 42 frog hour; quick meanwhile, frog toward the by descend pass The (slowly) (slowly) hour; the at quick The cannon. pass over per pass (slowly) while cannon. that dog the the",
+  "question": {
+   "type": "noul",
+   "instructions": "Is a bomb about to hit the cannon?"
+  },
+  "qtype": 2,
+  "ids": [
+   50281,
+   79,
+   3941,
+   1953,
+   27,
+   1680,
+   247,
+   10110,
+   670,
+   281,
+   4352,
+   253,
+   35996,
+   32,
+   50282,
+   50284,
+   3221,
+   27,
+   642,
+   13,
+   253,
+   3908,
+   1057,
+   417,
+   2186,
+   50284,
+   2032,
+   27,
+   4754,
+   13,
+   253,
+   3908,
+   6556,
+   50282,
+   68,
+   16554,
+   15,
+   2412,
+   13,
+   38724,
+   313,
+   31200,
+   314,
+   10,
+   689,
+   407,
+   327,
+   253,
+   15496,
+   407,
+   6574,
+   253,
+   253,
+   407,
+   1509,
+   4370,
+   326,
+   326,
+   326,
+   327,
+   38724,
+   35996,
+   15,
+   35996,
+   15,
+   22658,
+   828,
+   16208,
+   327,
+   38724,
+   3158,
+   253,
+   380,
+   36672,
+   591,
+   4964,
+   28,
+   828,
+   16208,
+   591,
+   591,
+   689,
+   380,
+   3158,
+   4964,
+   28,
+   5976,
+   326,
+   327,
+   4370,
+   591,
+   26614,
+   13,
+   407,
+   2584,
+   15496,
+   5976,
+   828,
+   16208,
+   8458,
+   8458,
+   591,
+   8458,
+   35996,
+   15,
+   35996,
+   15,
+   5976,
+   30013,
+   407,
+   253,
+   2412,
+   13,
+   387,
+   387,
+   326,
+   1223,
+   689,
+   380,
+   387,
+   2412,
+   13,
+   253,
+   2412,
+   13,
+   4370,
+   26614,
+   13,
+   30013,
+   1223,
+   313,
+   31200,
+   314,
+   10,
+   689,
+   313,
+   31200,
+   314,
+   10,
+   3158,
+   253,
+   38724,
+   1223,
+   6574,
+   387,
+   253,
+   2584,
+   327,
+   1223,
+   5976,
+   40096,
+   4964,
+   28,
+   3158,
+   26614,
+   13,
+   40096,
+   2584,
+   253,
+   407,
+   36672,
+   1509,
+   380,
+   313,
+   31200,
+   314,
+   10,
+   313,
+   31200,
+   314,
+   10,
+   4964,
+   28,
+   253,
+   387,
+   3158,
+   380,
+   35996,
+   15,
+   1509,
+   689,
+   591,
+   1509,
+   313,
+   31200,
+   314,
+   10,
+   1223,
+   35996,
+   15,
+   326,
+   4370,
+   253,
+   253,
+   50282
+  ],
+  "markers": [
+   15,
+   25
+  ],
+  "tensors": {
+   "emb": [
+    195,
+    1024
+   ],
+   "layer.0": [
+    195,
+    1024
+   ],
+   "layer.1": [
+    195,
+    1024
+   ],
+   "layer.2": [
+    195,
+    1024
+   ],
+   "layer.3": [
+    195,
+    1024
+   ],
+   "layer.27": [
+    195,
+    1024
+   ],
+   "final_norm": [
+    195,
+    1024
+   ],
+   "head_in": [
+    195,
+    1024
+   ],
+   "head.0": [
+    195,
+    1024
+   ],
+   "head.1": [
+    195,
+    1024
+   ],
+   "logits": [
+    2
+   ],
+   "act_logits": [
+    2
+   ]
+  }
+ }
+]

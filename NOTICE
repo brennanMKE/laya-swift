@@ -1,0 +1,21 @@
+LayaKit (laya-swift)
+Copyright 2026 Brennan Stehling
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This product includes software derived from laya-go
+(https://github.com/brennanMKE/laya-go), Copyright 2026 Brennan Stehling,
+licensed under the Apache License, Version 2.0: the Metal shaders
+(Sources/LayaMetal/ShaderSource.swift, copied from internal/metal/shaders.metal)
+and the golden test fixtures (Tests/LayaCoreTests/Resources/golden).
+
+laya-go is in turn derived from Laya
+(https://github.com/NandhaKishorM/laya, https://huggingface.co/convaiinnovations/laya),
+Copyright Convai Innovations, licensed under the Apache License, Version 2.0,
+and implements the ModernBERT encoder architecture
+(https://github.com/AnswerDotAI/ModernBERT) by Answer.AI and LightOn,
+licensed under the Apache License, Version 2.0.
+
+The Laya model weights are not included. They are downloaded at run time from
+Hugging Face (convaiinnovations/laya), where they are published under the
+Apache License, Version 2.0.
